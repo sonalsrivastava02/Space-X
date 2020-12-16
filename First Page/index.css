@@ -1,0 +1,129 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+  cursor: none;
+  
+}
+
+body {
+}
+
+canvas {
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+/* 
+  background-image: url("Images/city-landscape.png");
+  background-position: bottom center;
+  background-size:cover; */
+}
+
+.intro-image {
+  position: absolute; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+} 
+
+.intro-image img{
+  margin-top: 500px;
+  margin-left: 350px;
+  width: 100%;
+  height: 100%;
+  align: center;
+  opacity: 40%;
+
+}
+
+
+
+
+
+
+.hero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  color: cornflowerblue;
+  font-family: Helvetica, sans-serif;
+  font-size: 20vh;
+}
+
+.logo img {
+  position: absolute;
+  padding-left: 50px;
+  padding-top: 90px;
+  margin-left: 550px;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  display: flex;
+}
+
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  line-height: 0;
+  line-spacing: 30px;
+  font-weight: 400;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  color: black;
+}
+
+#cursor-text {
+  height: 20px;
+  width: 100px;
+  position: absolute;
+
+}
+
+/* text shadow animation
+@keyframes move {
+0% {
+  transform: translate(-33%, 0);
+}
+50% {
+  text-shadow: 0 5px 10px rgb(0, 0, 0);
+}
+100%{
+  transform: translate(33%, 0);
+}
+}
+
+.text :nth-child(2) {
+  animation-delay: .5s;
+}
+/*
+
+
+
+
+
